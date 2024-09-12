@@ -1,0 +1,43 @@
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#background{
+  background-color: rgb(31, 58, 81);;
+}
+
+.button1{
+  background: rgb(30, 209, 185);
+}
+
+/* margin */
+h1,
+.button1,
+.input-2,
+.input-1{
+  margin-top: 10px;
+}
+
+/* container */
+ .container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 200px;
+  width: 900px;
+  margin-top: 270px;
+  border-radius: 4px;
+  background-color: rgb(217, 234, 223);
+  align-items: center;
+}
+
+.input-2,
+.button1,
+.input-1{
+  flex-direction: column;
+  width: 879px;
+  border-radius: 4px;
+}
